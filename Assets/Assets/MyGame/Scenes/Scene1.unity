@@ -128,6 +128,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 25792316}
+  - component: {fileID: 25792317}
   m_Layer: 0
   m_Name: PoolingSpawner
   m_TagString: Untagged
@@ -150,6 +151,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &25792317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25792315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4a43b1473825a4aa76fe07230f4d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 6154713733076236406, guid: 2e5789a9dcc8f894ca6826c9d0849811, type: 3}
+  cubeParent: {fileID: 245496028}
+  poolSize: 5
 --- !u!1 &245496027
 GameObject:
   m_ObjectHideFlags: 0
